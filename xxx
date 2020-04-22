@@ -1,0 +1,106 @@
+--247f3daf9772ce2b57cd86ee943bd91f
+Content-Disposition: form-data; name="filed1"; filename="hello.ipynb"
+
+{
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "metadata": {
+  "language_info": {
+   "name": "python",
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "version": "3.6.9-final"
+  },
+  "orig_nbformat": 2,
+  "file_extension": ".py",
+  "mimetype": "text/x-python",
+  "name": "python",
+  "npconvert_exporter": "python",
+  "pygments_lexer": "ipython3",
+  "version": 3,
+  "kernelspec": {
+   "name": "python36964bitvenvvenv865a6643c13043b4ab8417dc13ab6856",
+   "display_name": "Python 3.6.9 64-bit ('venv': venv)"
+  }
+ },
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "Collecting request\n  Downloading https://files.pythonhosted.org/packages/f1/27/7cbde262d854aedf217061a97020d66a63163c5c04e0ec02ff98c5d8f44e/request-2019.4.13.tar.gz\nCollecting get (from request)\n  Downloading https://files.pythonhosted.org/packages/3f/ef/bb46f77f7220ac1b7edba0c76d810c89fddb24ddd8c08f337b9b4a618db7/get-2019.4.13.tar.gz\nCollecting post (from request)\n  Downloading https://files.pythonhosted.org/packages/0f/05/bd79da5849ea6a92485ed7029ef97b1b75e55c26bc0ed3a7ec769af666f3/post-2019.4.13.tar.gz\nRequirement already satisfied: setuptools in ./venv/lib/python3.6/site-packages (from request)\nCollecting query_string (from get->request)\n  Downloading https://files.pythonhosted.org/packages/12/3c/412a45daf5bea9b1d06d7de41787ec4168001dfa418db7ec8723356b119f/query-string-2019.4.13.tar.gz\nCollecting public (from query_string->get->request)\n  Downloading https://files.pythonhosted.org/packages/54/4d/b40004cc6c07665e48af22cfe1e631f219bf4282e15fa76a5b6364f6885c/public-2019.4.13.tar.gz\nBuilding wheels for collected packages: request, get, post, query-string, public\n  Running setup.py bdist_wheel for request ... \u001b[?25lerror\n  Complete output from command /home/zhanlan/projects/hello/venv/bin/python3 -u -c \"import setuptools, tokenize;__file__='/tmp/pip-build-v2iyt0f0/request/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\\r\\n', '\\n');f.close();exec(compile(code, __file__, 'exec'))\" bdist_wheel -d /tmp/tmpmwahyhg6pip-wheel- --python-tag cp36:\n  usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n     or: -c --help [cmd1 cmd2 ...]\n     or: -c --help-commands\n     or: -c cmd --help\n  \n  error: invalid command 'bdist_wheel'\n  \n  ----------------------------------------\n\u001b[31m  Failed building wheel for request\u001b[0m\n\u001b[?25h  Running setup.py clean for request\n  Running setup.py bdist_wheel for get ... \u001b[?25lerror\n  Complete output from command /home/zhanlan/projects/hello/venv/bin/python3 -u -c \"import setuptools, tokenize;__file__='/tmp/pip-build-v2iyt0f0/get/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\\r\\n', '\\n');f.close();exec(compile(code, __file__, 'exec'))\" bdist_wheel -d /tmp/tmpwzbf_616pip-wheel- --python-tag cp36:\n  usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n     or: -c --help [cmd1 cmd2 ...]\n     or: -c --help-commands\n     or: -c cmd --help\n  \n  error: invalid command 'bdist_wheel'\n  \n  ----------------------------------------\n\u001b[31m  Failed building wheel for get\u001b[0m\n\u001b[?25h  Running setup.py clean for get\n  Running setup.py bdist_wheel for post ... \u001b[?25lerror\n  Complete output from command /home/zhanlan/projects/hello/venv/bin/python3 -u -c \"import setuptools, tokenize;__file__='/tmp/pip-build-v2iyt0f0/post/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\\r\\n', '\\n');f.close();exec(compile(code, __file__, 'exec'))\" bdist_wheel -d /tmp/tmp6n39fmsqpip-wheel- --python-tag cp36:\n  usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n     or: -c --help [cmd1 cmd2 ...]\n     or: -c --help-commands\n     or: -c cmd --help\n  \n  error: invalid command 'bdist_wheel'\n  \n  ----------------------------------------\n\u001b[31m  Failed building wheel for post\u001b[0m\n\u001b[?25h  Running setup.py clean for post\n  Running setup.py bdist_wheel for query-string ... \u001b[?25lerror\n  Complete output from command /home/zhanlan/projects/hello/venv/bin/python3 -u -c \"import setuptools, tokenize;__file__='/tmp/pip-build-v2iyt0f0/query-string/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\\r\\n', '\\n');f.close();exec(compile(code, __file__, 'exec'))\" bdist_wheel -d /tmp/tmpbxtsfnv3pip-wheel- --python-tag cp36:\n  usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n     or: -c --help [cmd1 cmd2 ...]\n     or: -c --help-commands\n     or: -c cmd --help\n  \n  error: invalid command 'bdist_wheel'\n  \n  ----------------------------------------\n\u001b[31m  Failed building wheel for query-string\u001b[0m\n\u001b[?25h  Running setup.py clean for query-string\n  Running setup.py bdist_wheel for public ... \u001b[?25lerror\n  Complete output from command /home/zhanlan/projects/hello/venv/bin/python3 -u -c \"import setuptools, tokenize;__file__='/tmp/pip-build-v2iyt0f0/public/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\\r\\n', '\\n');f.close();exec(compile(code, __file__, 'exec'))\" bdist_wheel -d /tmp/tmpxcq310dopip-wheel- --python-tag cp36:\n  usage: -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n     or: -c --help [cmd1 cmd2 ...]\n     or: -c --help-commands\n     or: -c cmd --help\n  \n  error: invalid command 'bdist_wheel'\n  \n  ----------------------------------------\n\u001b[31m  Failed building wheel for public\u001b[0m\n\u001b[?25h  Running setup.py clean for public\nFailed to build request get post query-string public\nInstalling collected packages: public, query-string, get, post, request\n  Running setup.py install for public ... \u001b[?25ldone\n\u001b[?25h  Running setup.py install for query-string ... \u001b[?25ldone\n\u001b[?25h  Running setup.py install for get ... \u001b[?25ldone\n\u001b[?25h  Running setup.py install for post ... \u001b[?25ldone\n\u001b[?25h  Running setup.py install for request ... \u001b[?25ldone\n\u001b[?25hSuccessfully installed get-2019.4.13 post-2019.4.13 public-2019.4.13 query-string-2019.4.13 request-2019.4.13\n"
+    }
+   ],
+   "source": [
+    "!pip3 install request"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import requests"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "<Response [200]>"
+     },
+     "metadata": {},
+     "execution_count": 13
+    }
+   ],
+   "source": [
+    "requests.post(url=\"http://127.0.0.1:8080/\", files={\"filed1\": open(\"hello.ipynb\", \"rb\")})"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "<Response [200]>"
+     },
+     "metadata": {},
+     "execution_count": 3
+    }
+   ],
+   "source": [
+    "requests.get(url=\"http://127.0.0.1:8080/\")\n",
+    ""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ]
+}
+--247f3daf9772ce2b57cd86ee943bd91f--
